@@ -1,10 +1,14 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import { SlGraph } from "react-icons/sl";
+import { HiLightBulb } from "react-icons/hi";
+import { LiaChalkboardTeacherSolid } from "react-icons/lia";
+
 const About = () => {
   return (
     <div className="w-screen bg-gray-700 flex items-center justify-center">
-      <div className="w-[90%] bg-gray-900 rounded-lg p-4 m-8 gap-10 flex flex-col items-center justify-center ">
+      <div className="w-[90%] bg-gray-900 rounded-lg p-4 m-8 gap-5 flex flex-col items-center justify-center ">
         <div className="text-5xl w-full text-white mt-3 font-bold tracking-wider ">About</div>
 
         {data.map((item, index) => (
@@ -21,14 +25,15 @@ const About = () => {
           >
             <div className="w-[10%] flex items-center justify-center ">
               {" "}
-              <img
+              {/* <img
                 src={item.icon}
                 alt={`${item.heading} icon`}
                 className="item-icon"
-              />
+              /> */}
+              {item.icon}
             </div>
             <div className="flex flex-col items-center justify-center ">
-              <h2 className="text-3xl w-full pb-2">{item.heading}</h2>
+              <h2 className="text-3xl w-full pb-2 font-bold">{item.heading}</h2>
               <p className="text-xl">{item.text}</p>
             </div>
             <motion.div
@@ -60,17 +65,17 @@ const data = [
   {
     heading: "Introduction",
     text: "Hello! I’m Harsh Saini, currently pursuing a B.Tech in Computer Science from DTU. I have a deep passion for web development, problem-solving, and programming in C++. I thrive on creating innovative solutions and exploring new technologies in the realm of web development.",
-    icon: "home_icon.svg",
+icon: <LiaChalkboardTeacherSolid size={"4em"}/>,
   },
   {
     heading: "Skills & Technologies",
     text: "I specialize in the MERN stack. Currently, I am expanding my expertise by learning Next.js and TypeScript. My technical skills also encompass a variety of programming languages, frameworks, and tools that support my passion for building dynamic and efficient web applications.",
-    icon: "profile_icon.svg",
+    icon: <HiLightBulb size={"4em"}/>,
   },
  
   {
     heading: "Aspirations",
     text: "I am driven by a desire to continuously evolve as a developer and to tackle challenging projects that push the boundaries of technology. My goal is to contribute to innovative solutions and to stay at the forefront of emerging trends in web development. I am eager to deepen my expertise in full-stack development and to make meaningful contributions to impactful projects.",
-    icon: "messages_icon.svg",
+    icon: <SlGraph size={"4em"}/>,
   },
 ];
