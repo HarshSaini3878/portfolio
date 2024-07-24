@@ -61,7 +61,7 @@ export default function Navbar() {
           />
           <HStack spacing={8} alignItems={'center'}>
             <Box className='font-bold text-xl '>Harsh Saini</Box>
-            <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} marginLeft={10}>
+            <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} marginLeft={20}>
               {Links.map((link) => (
                 <NavLink  key={link}>{link}</NavLink>
               ))}
