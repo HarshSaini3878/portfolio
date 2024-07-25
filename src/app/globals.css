@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.custom-list-item::marker {
+    color: white; /* White dots */
+    font-size: 1.25rem; /* Larger dots */
+    margin-left: 1rem; /* Margin left */
+  }

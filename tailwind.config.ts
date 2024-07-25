@@ -37,7 +37,9 @@ const config: Config = {
       },
       animation: {
         typing: "typing 2s steps(20)  alternate, blink .7s "
-      }
+      },
+      
+      
     },
   },
   plugins: [addVariablesForColors],
