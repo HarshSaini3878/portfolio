@@ -122,7 +122,7 @@ const Experience = () => {
           style={{ transitionDelay: `${index * 0.1}s` }} // Stagger the animation
         >
           <div className="w-32 h-32 rounded-full overflow-hidden bg-gray-200 mx-auto flex items-center justify-center">
-            <img src={tech.icon} alt={tech.name} className="w-14 h-auto" />
+            <img src={tech.icon} alt={tech.name} className="w-[3.75rem] h-auto" />
           </div>
           <div className="mt-2 font-semibold text-xl"
           >{tech.name}</div>
