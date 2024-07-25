@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { FlipWords } from "./ui/flip-words";
 import { DownloadIcon } from "@chakra-ui/icons";
-import { motion } from "framer-motion";
+import { motion, spring } from "framer-motion";
 
 const HeroSection = () => {
 
@@ -30,18 +30,26 @@ const HeroSection = () => {
         <div className="animate-typing overflow-hidden whitespace-nowrap font-extrabold text-2xl md:text-3xl lg:text-5xl w-[100%] md:w-[90%]">
           Hello I'm Harsh saini
         </div>
-        <div className=" text-xl md:text-3xl lg:text-4xl w-[100%] md:w-[90%]">
+        <motion.div 
+        className=" text-xl md:text-3xl lg:text-4xl w-[100%] md:w-[90%]"
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.3 }}
+        >
           Passionate Fullstack Developer Experienced in front-end and back-end
           technologies. Dedicated to building dynamic, responsive web
           applications. Let's connect if you'd like to learn more!
-        </div>
+        </motion.div>
         <div className="w-[100%] md:w-[90%] flex items-center justify-center md:justify-start">
-          <button
+          <motion.button
             onClick={handleDownload}
             className="flex items-center justify-around gap-3 text-xl md:text-3xl font-semibold rounded-full text-white px-5 py-5 bg-black"
+            initial={{ x: -1200 }}
+    animate={{ x: 0 }}
+    transition={{ type: "spring", stiffness: 300, duration: 0.3 }}
           >
             Download CV <DownloadIcon />
-          </button>
+          </motion.button>
           
         </div>
       </div>
