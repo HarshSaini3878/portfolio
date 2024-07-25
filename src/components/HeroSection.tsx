@@ -36,7 +36,7 @@ const HeroSection = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.2 }}
         >
-          Passionate Fullstack Developer Experienced in front-end and back-end
+          I am a Passionate Fullstack Developer Experienced in front-end and back-end
           technologies. Dedicated to building dynamic, responsive web
           applications. Let's connect if you'd like to learn more!
         </motion.div>
