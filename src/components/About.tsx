@@ -64,7 +64,7 @@ export default About;
 const data = [
   {
     heading: "Introduction",
-    text: "Hello! I’m Harsh Saini, currently pursuing a B.Tech in Computer Science from DTU. I have a deep passion for web development, problem-solving, and programming in C++. I thrive on creating innovative solutions and exploring new technologies in the realm of web development.",
+    text: "Hello! I’m Harsh Saini, currently pursuing  B.Tech in Computer Science from DTU. I have a deep passion for web development, problem-solving, and programming in C++. I thrive on creating innovative solutions and exploring new technologies in the realm of web development.",
 icon: <LiaChalkboardTeacherSolid size={"4em"}/>,
   },
   {
