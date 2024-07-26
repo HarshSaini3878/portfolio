@@ -17,7 +17,7 @@ const Footer = () => {
         <motion.span
          ref={ref}
       initial={{ y: 200 ,x:-400 }} // Start position (off-screen top)
-      animate={{ y: 0 ,x:0}} // End position (on-screen)
+      animate={isInView ? { y: 0, x: 0 } : { y: 200, x: -400 }}// End position (on-screen)
       transition={{ type: 'spring', stiffness: 20, damping: 4 }}
       
       // Animation properties
