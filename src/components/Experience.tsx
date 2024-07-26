@@ -67,8 +67,8 @@ const Experience = () => {
     hover: { scale: 1.05 },
   };
   return (
-   <div className="flex flex-col md:flex-row items-stretch justify-center gap-3 w-screen bg-green-900">
-  <div className="w-full md:w-[50%] flex flex-col items-center justify-around bg-green-600 md:m-6">
+   <div className="flex flex-col md:flex-row items-stretch justify-center gap-3 w-screen bg-gray-900">
+  <div className="w-full md:w-[50%] flex flex-col items-center justify-around bg-gray-900 md:m-6">
     <div className="w-full text-2xl md:text-4xl font-bold text-white">
       Work Experience
     </div>
@@ -77,7 +77,7 @@ const Experience = () => {
         <motion.div
           ref={ref}
           key={index}
-          className="flex w-full items-center justify-center my-3 bg-gray-900 rounded-xl p-4"
+          className="flex w-full items-center justify-center my-3 bg-gray-800 rounded-xl p-4"
           initial="hidden"
           animate={controls}
           whileHover="hover"
@@ -85,7 +85,7 @@ const Experience = () => {
           transition={{ duration: 0.5, delay: index * 0.2 }}
         >
           <div className="h-full flex items-center justify-center">
-            <div>{experience.icon}</div>
+            <div className='hidden'>{experience.icon}</div>
           </div>
           <div>
             <h2 className="font-semibold text-3xl text-white">
@@ -106,7 +106,7 @@ const Experience = () => {
       ))}
     </div>
   </div>
-  <div className="w-full md:w-[40%] bg-green-600 flex flex-col sm:mb-6  md:m-6 ">
+  <div className="w-full md:w-[40%] bg-gray-900 flex flex-col sm:mb-6  md:m-6 ">
     <div className="w-full text-2xl md:text-4xl font-bold text-white">
       Tech Stack
     </div>
@@ -114,7 +114,7 @@ const Experience = () => {
       {techStack.map((tech, index) => (
         <motion.div 
         key={index}
-          className="text-center"
+          className="text-center text-white"
           initial="hidden"
           ref={inViewRef}
           animate={isElementInView ? "visible" : "hidden"}

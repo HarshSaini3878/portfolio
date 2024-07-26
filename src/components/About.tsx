@@ -7,8 +7,8 @@ import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 
 const About = () => {
   return (
-    <div className="w-screen bg-gray-700 flex items-center justify-center">
-      <div className="lg:w-[90%] md:w-full md:h-full bg-gray-900 rounded-lg p-4 m-8 gap-5 flex flex-col items-center justify-center ">
+    <div className="w-screen bg-gray-900 flex items-center justify-center">
+      <div className="lg:w-[90%] md:w-full md:h-full bg-gray-950 rounded-lg p-4 m-8 gap-5 flex flex-col items-center justify-center ">
         <div className="text-5xl w-full text-white mt-3 font-bold tracking-wider ">About</div>
 
         {data.map((item, index) => (
