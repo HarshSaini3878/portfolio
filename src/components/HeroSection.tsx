@@ -30,7 +30,7 @@ const HeroSection = () => {
     <div className="flex flex-col md:flex-row h-[100vh] md:h-[90vh] w-[100vw]" id="home">
       <div className="h-[50%] md:h-auto w-full md:w-[50%] bg-gray-900 flex flex-col items-center justify-center gap-4 md:gap-8 text-center md:text-left">
         <div className="animate-typing overflow-hidden whitespace-nowrap font-extrabold text-2xl md:text-3xl lg:text-5xl w-[100%] md:w-[90%] text-gray-200 font-robotoMono">
-          Hello I'm Harsh Saini
+          Hello I&apos;m Harsh Saini
         </div>
         <motion.div 
         className=" text-xl md:text-2xl lg:text-3xl w-[100%] md:w-[90%] text-gray-300 font-inconsolata"
@@ -40,7 +40,7 @@ const HeroSection = () => {
         >
           I am a Passionate Fullstack Developer Experienced in front-end and back-end
           technologies. Dedicated to building dynamic, responsive web
-          applications. Let's connect if you'd like to learn more!
+          applications. Let&apos;s connect if you&apos;d like to learn more!
         </motion.div>
         <div className="w-[100%] md:w-[90%] flex items-center justify-center md:justify-start">
           <motion.button
