@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className="w-screen min-h-40 flex justify-around gap-10 lg:gap-0 items-center p-10 flex-col md:flex-col lg:flex-row bg-gray-900" id="contact"> 
       <div className="flex text-4xl md:text-4xl lg:text-6xl font-bold tracking-wide text-center text-white">
-        <span>Get in Touch</span>
+        <span className="font-robotoMono">Get in Touch</span>
         <motion.span
          ref={ref}
       initial={{ y: 200 ,x:-400 }} // Start position (off-screen top)
@@ -25,11 +25,11 @@ const Footer = () => {
     >
       
 
-<FontAwesomeIcon className="pb-5 pl-3" size="xs" icon={faPaperPlane} style={{color: "#ffffff",}} />
+<FontAwesomeIcon className="pb-5 pl-3 " size="xs" icon={faPaperPlane} style={{color: "#ffffff",}} />
 
     </motion.span>
       </div>
-      <div className="flex flex-col gap-6 justify-center items-center">
+      <div className="flex flex-col gap-6 justify-center items-center font-inconsolata">
         {socialLinks.map((link, index) => (
           <Link key={index} href={link.href} passHref>
             <div className="text-center flex items-center justify-between w-[95vw] md:w-[25rem] gap-4 p-4 bg-gray-100 rounded-lg transition-transform transform hover:scale-105">

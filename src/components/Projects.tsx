@@ -17,15 +17,15 @@ const Projects = () => {
                 className="rounded-lg mb-4 sm:h-[200px]"
                 style={{ width: "100%", height: "300px" }}
               />
-              <h2 className="text-2xl font-bold mb-2 text-gray-200">{project.name}</h2>
-              <p className="mb-4 text-gray-300">{project.description}</p>
-              <h4 className="text-xl text-gray-200 font-semibold mb-2">Technologies Used:</h4>
-              <ul className="list-disc list-inside mb-4 text-white">
+              <h2 className="text-2xl font-bold mb-2 text-gray-200 font-robotoMono">{project.name}</h2>
+              <p className="mb-4 text-gray-300 font-montserrat">{project.description}</p>
+              <h4 className="text-xl text-gray-200 font-semibold font-robotoMono mb-2">Technologies Used:</h4>
+              <ul className="list-disc list-inside mb-4 text-white font-inconsolata">
                 {project.technologiesUsed.map((tech, i) => (
                   <li key={i}>{tech}</li>
                 ))}
               </ul>
-              <div className="mt-auto text-white">
+              <div className="mt-auto text-white font-poppins">
                 <a
                   href={project.githubLink}
                   target="_blank"

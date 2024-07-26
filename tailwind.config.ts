@@ -23,6 +23,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      
       keyframes: {
         typing: {
           "0%": {
@@ -40,10 +41,24 @@ const config: Config = {
           "100%": {
             borderColor: "white"
           }  
-        }
+        },
+        bounce: {
+          '0%,100%': {
+            transform: 'translateY(-50%)',
+          },
+          '50%': {
+            transform: 'translateY(0)',
+          },
+        },
+        spin: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
       },
       animation: {
-        typing: "typing 2s steps(20)  alternate, blink .7s "
+        typing: "typing 2s steps(20)  alternate, blink .7s ",
+        bounce: 'bounce 1s infinite',
+        spin: 'spin 1s linear infinite',
       },
       
       

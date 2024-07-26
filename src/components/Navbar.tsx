@@ -64,7 +64,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.300', 'gray.900')} className="bg-gray-400" px={4}>
+      <Box bg={useColorModeValue('gray.300', 'gray.900')} className="bg-gray-400 font-inconsolata" px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -74,7 +74,7 @@ export default function Navbar() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box className='font-bold text-xl '>Harsh Saini</Box>
+            <Box className='font-bold text-xl font-robotoMono '>Harsh Saini</Box>
             <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} marginLeft={20}>
               {Links.map((link) => (
                 <NavLink   key={link.text}  href={link.href}>{link.text} </NavLink>

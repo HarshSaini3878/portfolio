@@ -4,6 +4,7 @@ import React, { useEffect,useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
+
 const Experience = () => {
   const controls = useAnimation();
   const shuffleAnimation = {
@@ -20,6 +21,7 @@ const Experience = () => {
       }
     }
   };
+ 
 
   const [isElementInView, setIsElementInView] = useState(false);
 
