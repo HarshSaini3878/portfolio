@@ -27,7 +27,7 @@ const HeroSection = () => {
     document.body.removeChild(link);
   };
   return (
-    <div className="flex flex-col md:flex-row h-[100vh] md:h-[90vh] w-[100vw]">
+    <div className="flex flex-col md:flex-row h-[100vh] md:h-[90vh] w-[100vw]" id="home">
       <div className="h-[50%] md:h-auto w-full md:w-[50%] bg-gray-900 flex flex-col items-center justify-center gap-4 md:gap-8 text-center md:text-left">
         <div className="animate-typing overflow-hidden whitespace-nowrap font-extrabold text-2xl md:text-3xl lg:text-5xl w-[100%] md:w-[90%] text-gray-200 font-robotoMono">
           Hello I'm Harsh Saini

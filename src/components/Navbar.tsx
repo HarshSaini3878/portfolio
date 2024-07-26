@@ -20,6 +20,7 @@ import {
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import { Link as ScrollLink } from 'react-scroll';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 const Links = [
   { text: 'About', href: '#about' },
   { text: 'Experience', href: '#experience' },
@@ -74,7 +75,7 @@ export default function Navbar() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box className='font-bold text-xl font-robotoMono '>Harsh Saini</Box>
+           <Box className='font-bold text-xl font-robotoMono '> <Link href={"#home"}>Harsh Saini</Link></Box>
             <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} marginLeft={20}>
               {Links.map((link) => (
                 <NavLink   key={link.text}  href={link.href}>{link.text} </NavLink>
