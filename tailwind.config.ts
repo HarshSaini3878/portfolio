@@ -11,6 +11,13 @@ const config: Config = {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        robotoMono: ['Roboto Mono', 'monospace'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        inconsolata: ['Inconsolata', 'monospace'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

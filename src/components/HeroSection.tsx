@@ -1,8 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import { FlipWords } from "./ui/flip-words";
+
 import { DownloadIcon } from "@chakra-ui/icons";
 import { motion, spring } from "framer-motion";
+import Lottie from 'lottie-react'
+import work from "./work.json"
 
 const HeroSection = () => {
 
@@ -27,11 +29,11 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col md:flex-row h-[100vh] md:h-[90vh] w-[100vw]">
       <div className="h-[50%] md:h-auto w-full md:w-[50%] bg-gray-900 flex flex-col items-center justify-center gap-4 md:gap-8 text-center md:text-left">
-        <div className="animate-typing overflow-hidden whitespace-nowrap font-extrabold text-2xl md:text-3xl lg:text-5xl w-[100%] md:w-[90%] text-gray-200">
+        <div className="animate-typing overflow-hidden whitespace-nowrap font-extrabold text-2xl md:text-3xl lg:text-5xl w-[100%] md:w-[90%] text-gray-200 font-robotoMono">
           Hello I'm Harsh Saini
         </div>
         <motion.div 
-        className=" text-xl md:text-3xl lg:text-4xl w-[100%] md:w-[90%] text-gray-300"
+        className=" text-xl md:text-2xl lg:text-3xl w-[100%] md:w-[90%] text-gray-300 font-inconsolata"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.2 }}
@@ -55,7 +57,7 @@ const HeroSection = () => {
       </div>
       <div className="h-[50%] md:h-auto w-full md:w-[50%] bg-gray-900 flex items-center justify-center">
         <motion.div
-          className="w-[65%] h-[80%] bg-blue-500 rounded-full overflow-hidden flex items-center justify-center"
+          className="w-[65%] h-[80%] bg-gray-900 rounded-full overflow-hidden flex items-center justify-center"
           animate={{ y: ["0%", "-4%", "4%", "0%"] }}
           transition={{
             duration: 2,
@@ -64,11 +66,7 @@ const HeroSection = () => {
             ease: "easeInOut", // Smooth easing for a natural bounce effect
           }}
         >
-          <motion.img
-            src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=b616b2c5b373a80ffc9636ba24f7a4a9"
-            alt="Description of Image"
-            className="w-full h-full object-cover"
-          />
+          <Lottie animationData={work}/>
         </motion.div>
       </div>
     </div>

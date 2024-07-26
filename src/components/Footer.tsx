@@ -11,7 +11,7 @@ const Footer = () => {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
   return (
-    <div className="w-screen min-h-40 flex justify-around gap-10 lg:gap-0 items-center p-10 flex-col md:flex-col lg:flex-row bg-gray-900"> 
+    <div className="w-screen min-h-40 flex justify-around gap-10 lg:gap-0 items-center p-10 flex-col md:flex-col lg:flex-row bg-gray-900" id="contact"> 
       <div className="flex text-4xl md:text-4xl lg:text-6xl font-bold tracking-wide text-center text-white">
         <span>Get in Touch</span>
         <motion.span

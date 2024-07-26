@@ -7,9 +7,9 @@ import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 
 const About = () => {
   return (
-    <div className="w-screen bg-gray-900 flex items-center justify-center">
+    <div className="w-screen bg-gray-900 flex items-center justify-center" id="about">
       <div className="lg:w-[90%] md:w-full md:h-full bg-gray-950 rounded-lg p-4 m-8 gap-5 flex flex-col items-center justify-center ">
-        <div className="text-5xl w-full text-white mt-3 font-bold tracking-wider ">About</div>
+        <div className="text-5xl w-full text-white mt-3 font-bold tracking-wider font-robotoMono">About</div>
 
         {data.map((item, index) => (
           <motion.div
@@ -21,7 +21,7 @@ const About = () => {
               boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
             }}
             key={index}
-            className="w-full mx-3 bg-gray-300 flex gap-6 py-3 px-2 mb-5 min-h-40 md:min-h-36  rounded-lg"
+            className="w-full font-semibold mx-3 bg-gray-300 flex gap-6 py-3 px-2 mb-5 min-h-40 md:min-h-36  rounded-lg font-inconsolata"
           >
             <div className="w-[10%] md:flex items-center justify-center hidden   ">
               {" "}

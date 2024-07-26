@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
 export default function Home() {
   return (
-   <div className="overflow-clip">
+   <div className="overflow-clip bg-gray-900">
    <Navbar/>
    <HeroSection/>
    <About/>

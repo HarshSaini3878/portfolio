@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '@fontsource/roboto'; /* Import Roboto */
+@import '@fontsource/poppins'; /* Import Poppins */
+@import '@fontsource/roboto-mono'; /* Import Roboto Mono */
+@import '@fontsource/inconsolata'; /* Import Inconsolata */
+@import '@fontsource/montserrat'; /* Import Montserrat */
+
+
 
 .custom-list-item::marker {
     color: white; /* White dots */

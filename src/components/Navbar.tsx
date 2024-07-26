@@ -18,32 +18,46 @@ import {
   Stack,
 } from '@chakra-ui/react'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
+import { Link as ScrollLink } from 'react-scroll';
+import { motion } from 'framer-motion';
+const Links = [
+  { text: 'About', href: '#about' },
+  { text: 'Experience', href: '#experience' },
+  { text: 'Projects', href: '#projects' },
+  { text: 'Contact', href: '#contact' },
+];
 
 interface Props {
-  children: React.ReactNode
+  children: React.ReactNode;
+  href: string;
 }
 
-const Links = ['About','Experience', 'Projects', 'Contact']
+const MotionBox = motion(Box);
 
 const NavLink = (props: Props) => {
-  const { children } = props
+  const { children, href } = props;
 
   return (
-    <Box
+    <MotionBox
       as="a"
       px={2}
       py={1}
       rounded={'md'}
-      className=' text-xl'
+      className='text-xl'
       _hover={{
         textDecoration: 'none',
         bg: useColorModeValue('gray.200', 'gray.700'),
       }}
-      href={'#'}>
+      href={href}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       {children}
-    </Box>
-  )
-}
+    </MotionBox>
+  );
+};
+
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -63,7 +77,7 @@ export default function Navbar() {
             <Box className='font-bold text-xl '>Harsh Saini</Box>
             <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} marginLeft={20}>
               {Links.map((link) => (
-                <NavLink  key={link}>{link}</NavLink>
+                <NavLink   key={link.text}  href={link.href}>{link.text} </NavLink>
               ))}
             </HStack>
           </HStack>
@@ -78,7 +92,7 @@ export default function Navbar() {
                 <Avatar
                   size={'sm'}
                   src={
-                    'https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=b616b2c5b373a80ffc9636ba24f7a4a9'
+                    "/assets/meditation.jpg"
                   }
                 />
               </MenuButton>
@@ -90,8 +104,8 @@ export default function Navbar() {
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }}>
             <Stack as={'nav'} spacing={4}>
-              {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
+              {Links.map((link,index) => (
+                <NavLink key={index} href={link.href}>{link.text}</NavLink>
               ))}
             </Stack>
           </Box>
