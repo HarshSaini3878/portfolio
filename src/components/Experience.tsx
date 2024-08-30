@@ -145,7 +145,7 @@ const workExperience = [
     icon: "👨‍💻",
     role: "Full Stack Developer Intern",
     dateFrom: "July 2024",
-    dateTo: "present",
+    dateTo: "August 2024",
     work: [
       "Collaborated with teams on feature development.",
       "Maintained and updated user interface consistently.",
