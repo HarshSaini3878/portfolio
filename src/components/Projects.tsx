@@ -77,6 +77,16 @@ const projects = [
     demoLink: "https://youtu.be/GoiFgaQ_o2g",
   },
   {
+    image: "assets/cryptoArth.png",
+    name: "Crypto Arth 💰",
+    description:
+      "A sleek, responsive web-based wallet with modern gradient, key management (public/private visibility toggle), and integrated secure key storage.",
+    technologiesUsed: ["Next.js", "Cryptography", "Javascript"],
+    githubLink:
+      "https://github.com/HarshSaini3878/web-based-wallet",
+    demoLink: "https://web-based-wallet-murex.vercel.app/",
+  },
+  {
     image: "/assets/music-academy.png",
     name: "Music Academy Frontend",
     description:
@@ -95,4 +105,5 @@ const projects = [
       "https://github.com/HarshSaini3878/kaun-banega-crorepati-quiz-project",
     demoLink: "https://youtu.be/zil7Yd9yleo",
   },
+  
 ];
