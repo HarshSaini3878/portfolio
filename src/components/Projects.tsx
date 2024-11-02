@@ -87,6 +87,15 @@ const projects = [
     demoLink: "https://web-based-wallet-murex.vercel.app/",
   },
   {
+    image: "/assets/betting.png",
+    name: "BetBuddy",
+    description:
+      "A fun betting app built with JavaScript, allowing users to place bets, track scores, and enjoy interactive gameplay",
+    technologiesUsed: ["React.js", "Material ui","Javascript" ],
+    githubLink: "https://github.com/HarshSaini3878/betting2",
+    demoLink: "https://bet-to-meter.vercel.app/",
+  },
+  {
     image: "/assets/music-academy.png",
     name: "Music Academy Frontend",
     description:
