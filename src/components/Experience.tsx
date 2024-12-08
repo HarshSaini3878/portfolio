@@ -169,6 +169,21 @@ const workExperience = [
     
     ,
   },
+  {
+    companyName:"Nexspace.tech",
+    icon: "👨‍💻",
+    role: "Web Developer Intern",
+    dateFrom: "Sep 2024",
+    dateTo: "Present",
+    work:[
+     " Rebuilt website from Flask to Next.js framework.",
+"Improved efficiency and user experience significantly.",
+"Developed AI interview interface for engagement.",
+"Optimized performance through modern web technologies."
+    ]
+    
+    ,
+  },
 ];
 
 const techStack = [
