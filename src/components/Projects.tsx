@@ -87,6 +87,16 @@ const projects = [
     demoLink: "https://web-based-wallet-murex.vercel.app/",
   },
   {
+    image: "/assets/second-brain.png",
+    name: "Second Brain",
+    description:
+      "An application for storing, organizing, and sharing YouTube videos and tweets.",
+    technologiesUsed: ["React.js", "Express", "Typescript"],
+    githubLink:
+      "https://github.com/HarshSaini3878/secondbrain/tree/new-branch",
+    demoLink: "https://youtu.be/ov-la142JMk",
+  },
+  {
     image: "/assets/betting.png",
     name: "BetBuddy",
     description:
