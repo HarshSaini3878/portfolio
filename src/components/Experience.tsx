@@ -224,5 +224,9 @@ const techStack = [
     name: "Node.js",
     icon: "/assets/node-js-icon.svg"
   },
+  {
+    name: "Express.js",
+    icon: "/assets/expressjs.svg"
+  },
   
 ];

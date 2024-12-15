@@ -77,6 +77,26 @@ const projects = [
     demoLink: "https://youtu.be/GoiFgaQ_o2g",
   },
   {
+    image: "/assets/ChatBotHub.png",
+    name: "ChatBot HUB",
+    description:
+      "A sleek WebSocket-powered chat app with Shadcn UI, offering real-time messaging, modern design, and seamless user experience.",
+    technologiesUsed: ["React.js", "Typescript", "WebSockets"],
+    githubLink:
+      "https://github.com/HarshSaini3878/chat-app-sockets",
+    demoLink: "https://www.youtube.com/shorts/JjFubtTsZZA",
+  },
+  {
+    image: "/assets/second-brain.png",
+    name: "Second Brain",
+    description:
+      "An app for storing, organizing, and sharing YouTube videos and tweets, featuring categorization, search, and collaborative sharing features.",
+    technologiesUsed: ["React.js", "Express", "Typescript"],
+    githubLink:
+      "https://github.com/HarshSaini3878/secondbrain/tree/new-branch",
+    demoLink: "https://youtu.be/ov-la142JMk",
+  },
+  {
     image: "assets/cryptoArth.png",
     name: "Crypto Arth 💰",
     description:
@@ -85,16 +105,6 @@ const projects = [
     githubLink:
       "https://github.com/HarshSaini3878/web-based-wallet",
     demoLink: "https://web-based-wallet-murex.vercel.app/",
-  },
-  {
-    image: "/assets/second-brain.png",
-    name: "Second Brain",
-    description:
-      "An application for storing, organizing, and sharing YouTube videos and tweets.",
-    technologiesUsed: ["React.js", "Express", "Typescript"],
-    githubLink:
-      "https://github.com/HarshSaini3878/secondbrain/tree/new-branch",
-    demoLink: "https://youtu.be/ov-la142JMk",
   },
   {
     image: "/assets/betting.png",
