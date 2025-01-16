@@ -21,7 +21,7 @@ const About = () => {
               boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
             }}
             key={index}
-            className="w-full font-semibold mx-3 bg-gray-300 flex gap-6 py-3 px-2 mb-5 min-h-40 md:min-h-36  rounded-lg font-inconsolata"
+            className="w-full font-semibold text-gray-900 mx-3 bg-gray-300 flex gap-6 py-3 px-2 mb-5 min-h-40 md:min-h-36  rounded-lg font-inconsolata"
           >
             <div className="w-[10%] md:flex items-center justify-center hidden   ">
               {" "}

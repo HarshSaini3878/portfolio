@@ -59,13 +59,24 @@ export default Projects;
 
 const projects = [
   {
-    image: "/assets/e-commerce.png",
-    name: "E-Commerce App",
+    image: "/assets/second-brain.png",
+    name: "Second Brain",
     description:
-      "Developed a dynamic eCommerce platform using the MERN stack, featuring user authentication, product listings, shopping cart, and secure checkout.",
+      "An app for storing, organizing, and sharing YouTube videos and tweets, featuring categorization, search, and collaborative sharing features.",
+    technologiesUsed: ["React.js", "Express", "Typescript"],
+    githubLink:
+      "https://github.com/HarshSaini3878/secondbrain/tree/new-branch",
+    demoLink: "https://youtu.be/ov-la142JMk",
+  },
+  
+  {
+    image: "/assets/PaySphere.png",
+    name: "PaySphere",
+    description:
+      "Developed a robust payments app using the MERN stack, enabling secure money transfers, requests, and wallet top-ups",
     technologiesUsed: ["React.js", "MongoDB", "Express.js"],
-    githubLink: "https://github.com/HarshSaini3878/e-commerce-app",
-    demoLink: "https://youtu.be/0KS34YZwsy8",
+    githubLink: "https://github.com/HarshSaini3878/payments-app",
+    demoLink: "https://youtu.be/BBqFmtOr9rw",
   },
   {
     image: "/assets/youtube (2).png",
@@ -87,14 +98,13 @@ const projects = [
     demoLink: "https://www.youtube.com/shorts/JjFubtTsZZA",
   },
   {
-    image: "/assets/second-brain.png",
-    name: "Second Brain",
+    image: "/assets/e-commerce.png",
+    name: "E-Commerce App",
     description:
-      "An app for storing, organizing, and sharing YouTube videos and tweets, featuring categorization, search, and collaborative sharing features.",
-    technologiesUsed: ["React.js", "Express", "Typescript"],
-    githubLink:
-      "https://github.com/HarshSaini3878/secondbrain/tree/new-branch",
-    demoLink: "https://youtu.be/ov-la142JMk",
+      "Developed a dynamic eCommerce platform using the MERN stack, featuring user authentication, product listings, shopping cart, and secure checkout.",
+    technologiesUsed: ["React.js", "MongoDB", "Express.js"],
+    githubLink: "https://github.com/HarshSaini3878/e-commerce-app",
+    demoLink: "https://youtu.be/0KS34YZwsy8",
   },
   {
     image: "assets/cryptoArth.png",

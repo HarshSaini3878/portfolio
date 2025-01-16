@@ -32,8 +32,8 @@ const Footer = () => {
       <div className="flex flex-col gap-6 justify-center items-center font-inconsolata">
         {socialLinks.map((link, index) => (
           <Link key={index} href={link.href} passHref>
-            <div className="text-center flex items-center justify-between w-[95vw] md:w-[25rem] gap-4 p-4 bg-gray-100 rounded-lg transition-transform transform hover:scale-105">
-              <div className="w-16 h-16 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center">
+            <div className="text-center text-gray-900 flex items-center justify-between w-[95vw] md:w-[25rem] gap-4 p-4 bg-gray-100 rounded-lg transition-transform transform hover:scale-105">
+              <div className="w-16 h-16 rounded-full overflow-hidden bg-gray-200  flex items-center justify-center">
                 <img src={link.icon} alt={link.name} className="w-11 h-auto" />
               </div>
               <div className="text-2xl tracking-wider font-semibold">
