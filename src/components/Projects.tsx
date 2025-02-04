@@ -62,11 +62,11 @@ const projects = [
     image: "/assets/second-brain.png",
     name: "Link Nest",
     description:
-      "An app for storing, organizing, and sharing YouTube videos and tweets, featuring categorization, search, and collaborative sharing features.",
-    technologiesUsed: ["React.js", "Express", "Typescript"],
+      "LinkNest lets users create a shareable links page to organize and showcase multiple links in one place.",
+    technologiesUsed: ["Next.js", "MongoDB", "TailwindCSS"],
     githubLink:
-      "https://github.com/HarshSaini3878/secondbrain/tree/new-branch",
-    demoLink: "https://youtu.be/ov-la142JMk",
+      "https://github.com/HarshSaini3878/link-nest",
+    demoLink: "https://youtu.be/eaPk7MWWlwI",
   },
   {
     image: "/assets/PaySphere.png",
