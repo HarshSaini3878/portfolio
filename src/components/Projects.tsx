@@ -59,7 +59,7 @@ export default Projects;
 
 const projects = [
   {
-    image: "/assets/second-brain.png",
+    image: "/assets/link-nest.png",
     name: "Link Nest",
     description:
       "LinkNest lets users create a shareable links page to organize and showcase multiple links in one place.",
