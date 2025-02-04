@@ -60,7 +60,7 @@ export default Projects;
 const projects = [
   {
     image: "/assets/second-brain.png",
-    name: "Second Brain",
+    name: "Link Nest",
     description:
       "An app for storing, organizing, and sharing YouTube videos and tweets, featuring categorization, search, and collaborative sharing features.",
     technologiesUsed: ["React.js", "Express", "Typescript"],
@@ -68,7 +68,6 @@ const projects = [
       "https://github.com/HarshSaini3878/secondbrain/tree/new-branch",
     demoLink: "https://youtu.be/ov-la142JMk",
   },
-  
   {
     image: "/assets/PaySphere.png",
     name: "PaySphere",
@@ -78,6 +77,18 @@ const projects = [
     githubLink: "https://github.com/HarshSaini3878/payments-app",
     demoLink: "https://youtu.be/BBqFmtOr9rw",
   },
+  {
+    image: "/assets/second-brain.png",
+    name: "Second Brain",
+    description:
+      "An app for storing, organizing, and sharing YouTube videos and tweets, featuring categorization, search, and collaborative sharing features.",
+    technologiesUsed: ["React.js", "Express", "Typescript"],
+    githubLink:
+      "https://github.com/HarshSaini3878/secondbrain/tree/new-branch",
+    demoLink: "https://youtu.be/ov-la142JMk",
+  },
+  
+  
   {
     image: "/assets/youtube (2).png",
     name: "Youtube Clone",
