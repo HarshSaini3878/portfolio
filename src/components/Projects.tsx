@@ -58,6 +58,19 @@ const Projects = () => {
 export default Projects;
 
 const projects = [
+
+
+  {
+    image: "/assets/contest-tracker.png",
+    name: "Contest Tracker",
+    description:
+      "Contest Tracker is a platform that aggregates recent and past coding contests, offering contest details and solutions in one place for convenience.",
+    technologiesUsed: ["React.js", "WebScraping", "ShadCN"],
+    githubLink:
+      "https://github.com/HarshSaini3878/contest-tracker",
+    demoLink: "https://youtu.be/kbU4dEgNgJM",
+  }
+  ,
   {
     image: "/assets/link-nest.png",
     name: "Link Nest",
@@ -88,7 +101,25 @@ const projects = [
     demoLink: "https://youtu.be/ov-la142JMk",
   },
   
-  
+  {
+    image: "/assets/quiz.png",
+    name: "KBC based Quiz app",
+    description:
+      "Designed a KBC-style quiz app frontend with React.js, featuring interactive questions, dynamic scoring, and user-friendly navigation for an engaging quiz experience.",
+    technologiesUsed: ["React.js", "React hooks", "Javascript"],
+    githubLink:
+      "https://github.com/HarshSaini3878/kaun-banega-crorepati-quiz-project",
+    demoLink: "https://youtu.be/zil7Yd9yleo",
+  },
+  {
+    image: "/assets/music-academy.png",
+    name: "Music Academy Frontend",
+    description:
+      "Created a modern Music Academy frontend using Next.js and Aceternity UI, featuring interactive course listings and seamless user experience.",
+    technologiesUsed: ["Next.js", "React.js", "Aceternity ui"],
+    githubLink: "https://github.com/HarshSaini3878/nextjs-1st-Project",
+    demoLink: "https://youtu.be/ei7aXtzgOD0",
+  },
   {
     image: "/assets/youtube (2).png",
     name: "Youtube Clone",
@@ -117,43 +148,26 @@ const projects = [
     githubLink: "https://github.com/HarshSaini3878/e-commerce-app",
     demoLink: "https://youtu.be/0KS34YZwsy8",
   },
-  {
-    image: "assets/cryptoArth.png",
-    name: "Crypto Arth 💰",
-    description:
-      "A sleek, responsive web-based wallet with modern gradient, key management (public/private visibility toggle), and integrated secure key storage.",
-    technologiesUsed: ["Next.js", "Cryptography", "Javascript"],
-    githubLink:
-      "https://github.com/HarshSaini3878/web-based-wallet",
-    demoLink: "https://web-based-wallet-murex.vercel.app/",
-  },
-  {
-    image: "/assets/betting.png",
-    name: "BetBuddy",
-    description:
-      "A fun betting app built with JavaScript, allowing users to place bets, track scores, and enjoy interactive gameplay",
-    technologiesUsed: ["React.js", "Material ui","Javascript" ],
-    githubLink: "https://github.com/HarshSaini3878/betting2",
-    demoLink: "https://bet-to-meter.vercel.app/",
-  },
-  {
-    image: "/assets/music-academy.png",
-    name: "Music Academy Frontend",
-    description:
-      "Created a modern Music Academy frontend using Next.js and Aceternity UI, featuring interactive course listings and seamless user experience.",
-    technologiesUsed: ["Next.js", "React.js", "Aceternity ui"],
-    githubLink: "https://github.com/HarshSaini3878/nextjs-1st-Project",
-    demoLink: "https://youtu.be/ei7aXtzgOD0",
-  },
-  {
-    image: "/assets/quiz.png",
-    name: "KBC based Quiz app",
-    description:
-      "Designed a KBC-style quiz app frontend with React.js, featuring interactive questions, dynamic scoring, and user-friendly navigation for an engaging quiz experience.",
-    technologiesUsed: ["React.js", "React hooks", "Javascript"],
-    githubLink:
-      "https://github.com/HarshSaini3878/kaun-banega-crorepati-quiz-project",
-    demoLink: "https://youtu.be/zil7Yd9yleo",
-  },
+  // {
+  //   image: "assets/cryptoArth.png",
+  //   name: "Crypto Arth 💰",
+  //   description:
+  //     "A sleek, responsive web-based wallet with modern gradient, key management (public/private visibility toggle), and integrated secure key storage.",
+  //   technologiesUsed: ["Next.js", "Cryptography", "Javascript"],
+  //   githubLink:
+  //     "https://github.com/HarshSaini3878/web-based-wallet",
+  //   demoLink: "https://web-based-wallet-murex.vercel.app/",
+  // },
+  // {
+  //   image: "/assets/betting.png",
+  //   name: "BetBuddy",
+  //   description:
+  //     "A fun betting app built with JavaScript, allowing users to place bets, track scores, and enjoy interactive gameplay",
+  //   technologiesUsed: ["React.js", "Material ui","Javascript" ],
+  //   githubLink: "https://github.com/HarshSaini3878/betting2",
+  //   demoLink: "https://bet-to-meter.vercel.app/",
+  // },
+
+ 
   
 ];

@@ -145,7 +145,7 @@ const workExperience = [
     icon: "👨‍💻",
     role: "Full Stack Developer Intern",
     dateFrom: "Sep 2024",
-    dateTo: "Present",
+    dateTo: "Feb 2025",
     work:[
      " Rebuilt website from Flask to Next.js framework.",
 "Improved efficiency and user experience significantly.",
